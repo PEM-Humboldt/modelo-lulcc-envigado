@@ -1,0 +1,29 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Bin_POMCA</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Bin_clasedesuelos</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Bin_ametropolitana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Bin_rios</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>Bin_parquesreservas</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>bin_rnare</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>Bin_humendales</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>Bin_nacimientos</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>Bin_silape</Description>
+  </PAMRasterBand>
+</PAMDataset>

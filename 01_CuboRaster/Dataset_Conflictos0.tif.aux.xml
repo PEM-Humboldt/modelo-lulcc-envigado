@@ -1,0 +1,14 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Bin_atropellamiento_gen</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Bin_presenciaausencia_fel</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Bin_ataques_fel</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Bin_estructuraecologicappal</Description>
+  </PAMRasterBand>
+</PAMDataset>

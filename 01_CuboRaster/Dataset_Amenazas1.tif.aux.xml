@@ -1,0 +1,17 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Dist_Deslizamiento</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Dist_Inundaciones</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Dist_Altaincendios</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Dist_Mineria</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>Dist_PlantacionesHisto</Description>
+  </PAMRasterBand>
+</PAMDataset>

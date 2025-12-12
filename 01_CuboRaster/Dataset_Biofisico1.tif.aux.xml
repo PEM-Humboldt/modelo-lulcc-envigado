@@ -1,0 +1,23 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Dist_EcoPOMCA</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Dist_nacimientos</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Dist_NucleosSILAPE</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Dista_riosquebradas</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>Dist_parquesreservas</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>bin_rnare</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>Dist_CorredoresSILAPE</Description>
+  </PAMRasterBand>
+</PAMDataset>

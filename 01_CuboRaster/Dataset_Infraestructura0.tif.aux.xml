@@ -1,0 +1,29 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Bin_NuevosProyectos</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Bin_clasedesuelos</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Bin_linea_altatens</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Bin_vias_rurales</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>Bin_redaguas</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>bin_captaciones</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>Bin_vias_region</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>Bin_constru_urbana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>Bin_constru_rural</Description>
+  </PAMRasterBand>
+</PAMDataset>
