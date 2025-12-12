@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<script>
+    <property key="dff.charset" value="UTF-8" />
+    <property key="dff.date" value="2025-Dec-12 10:28:18" />
+    <property key="dff.version" value="8.8.0.20250930" />
+    <functor name="LoadCategoricalMap">
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2019.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v1" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Biofisico0.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v2" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="Final Landscape" />
+        <property key="dff.functor.comment" value="Final landscape map." />
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2014.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v3" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Biofisico1.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v4" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2019.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v5" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Infraestructura0.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v6" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="Final Landscape" />
+        <property key="dff.functor.comment" value="Final landscape map." />
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2014.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v7" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Infraestructura1.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v8" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2019.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v9" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Conflictos0.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v10" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="Final Landscape" />
+        <property key="dff.functor.comment" value="Final landscape map." />
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2014.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v11" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Conflictos1.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v12" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2019.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v13" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Amenazas0.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v14" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="Final Landscape" />
+        <property key="dff.functor.comment" value="Final landscape map." />
+        <inputport name="filename">&quot;../Cubo_raster/MAPBIOMAS_2014.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v15" />
+    </functor>
+    <functor name="LoadMap">
+        <inputport name="filename">&quot;../01_Raster/Dataset_Amenazas1.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v16" />
+    </functor>
+    <functor name="LoadWeights">
+        <inputport name="filename">&quot;../03_ Results_Final/02_ranges_skeleton_all.dcf&quot;</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="weights" id="v17" />
+    </functor>
+    <containerfunctor name="DetermineWeightsOfEvidenceRanges">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v3" />
+        <inputport name="finalLandscape" peerid="v1" />
+        <inputport name="skeleton">[&#x0A;    1-&gt;2 [&#x0A;        &quot;dynamic_biofisico/Dist_CorredoresSILAPE&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_biofisico/Dist_EcoPOMCA&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_biofisico/Dist_NucleosSILAPE&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_biofisico/Dist_nacimientos&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_biofisico/Dist_parquesreservas&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_biofisico/Dista_riosquebradas&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_biofisico/bin_rnare&quot; 100 10000 100 5,&#x0A;        &quot;static_biofisico/Bin_POMCA&quot;,&#x0A;        &quot;static_biofisico/Bin_clasedesuelos&quot;,&#x0A;        &quot;static_biofisico/Bin_humendales&quot;,&#x0A;        &quot;static_biofisico/Bin_nacimientos&quot;,&#x0A;        &quot;static_biofisico/Bin_parquesreservas&quot;,&#x0A;        &quot;static_biofisico/Bin_silape&quot;,&#x0A;        &quot;static_biofisico/bin_rnare&quot;&#x0A;    ]&#x0A;]</inputport>
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.no</inputport>
+        <outputport name="ranges" id="v18" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v2" />
+            <inputport name="mapName">&quot;static_biofisico&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v4" />
+            <inputport name="mapName">&quot;dynamic_biofisico&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceCoefficients">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v3" />
+        <inputport name="finalLandscape" peerid="v1" />
+        <inputport name="ranges" peerid="v18" />
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.yes</inputport>
+        <outputport name="weights" id="v19" />
+        <outputport name="report" id="v20" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v2" />
+            <inputport name="mapName">&quot;static_biofisico&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v4" />
+            <inputport name="mapName">&quot;dynamic_biofisico&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceRanges">
+        <property key="dff.container.collapsed" value="yes" />
+        <property key="dff.functor.comment" value="Infraestructura" />
+        <inputport name="initialLandscape" peerid="v7" />
+        <inputport name="finalLandscape" peerid="v5" />
+        <inputport name="skeleton">[&#x0A;    1-&gt;2 [&#x0A;        &quot;dynamic_Infraestructura/Dist_NuevosUrbanis&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_claseurbana&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_constru_rural&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_constru_urbana&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_linea_altatension&quot; 100 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_potable&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_redEPM&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_vias_region&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_Infraestructura/Dist_vias_rurales&quot; 60 10000 100 5,&#x0A;        &quot;static_Infraestructura/Bin_NuevosProyectos&quot;,&#x0A;        &quot;static_Infraestructura/Bin_clasedesuelos&quot;,&#x0A;        &quot;static_Infraestructura/Bin_constru_rural&quot;,&#x0A;        &quot;static_Infraestructura/Bin_constru_urbana&quot;&#x0A;    ]&#x0A;]</inputport>
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.no</inputport>
+        <outputport name="ranges" id="v21" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v6" />
+            <inputport name="mapName">&quot;static_Infraestructura&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v8" />
+            <inputport name="mapName">&quot;dynamic_Infraestructura&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceCoefficients">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v7" />
+        <inputport name="finalLandscape" peerid="v5" />
+        <inputport name="ranges" peerid="v21" />
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.yes</inputport>
+        <outputport name="weights" id="v22" />
+        <outputport name="report" id="v23" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v6" />
+            <inputport name="mapName">&quot;static_Infraestructura&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v8" />
+            <inputport name="mapName">&quot;dynamic_Infraestructura&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceRanges">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v11" />
+        <inputport name="finalLandscape" peerid="v9" />
+        <inputport name="skeleton">[&#x0A;    1-&gt;2 [&#x0A;        &quot;dynamic_conflictos/Dist_ConflictosEEP&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_conflictos/Dist_ataques_felinos&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_conflictos/Dist_atropellamiento_felinos&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_conflictos/Dist_presencia_felinos&quot; 60 10000 100 5,&#x0A;        &quot;static_conflictos/Bin_estructuraecologicappal&quot;&#x0A;    ]&#x0A;]</inputport>
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.no</inputport>
+        <outputport name="ranges" id="v24" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v10" />
+            <inputport name="mapName">&quot;static_conflictos&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v12" />
+            <inputport name="mapName">&quot;dynamic_conflictos&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceCoefficients">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v11" />
+        <inputport name="finalLandscape" peerid="v9" />
+        <inputport name="ranges" peerid="v24" />
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.yes</inputport>
+        <outputport name="weights" id="v25" />
+        <outputport name="report" id="v26" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v10" />
+            <inputport name="mapName">&quot;static_conflictos&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v12" />
+            <inputport name="mapName">&quot;dynamic_conflictos&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceRanges">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v15" />
+        <inputport name="finalLandscape" peerid="v13" />
+        <inputport name="skeleton">[&#x0A;    1-&gt;2 [&#x0A;        &quot;dynamic_amenazas/Dist_Altaincendios&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_amenazas/Dist_Deslizamiento&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_amenazas/Dist_Mineria&quot; 60 10000 100 5,&#x0A;        &quot;dynamic_amenazas/Dist_PlantacionesHisto&quot; 60 10000 100 5,&#x0A;        &quot;static_amenazas/Bin_Deslizamientos&quot;,&#x0A;        &quot;static_amenazas/Bin_Inundaciones&quot;,&#x0A;        &quot;static_amenazas/Bin_Mineria&quot;,&#x0A;        &quot;static_amenazas/Bin_incendios_forestales&quot;&#x0A;    ]&#x0A;]</inputport>
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.no</inputport>
+        <outputport name="ranges" id="v27" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v14" />
+            <inputport name="mapName">&quot;static_amenazas&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v16" />
+            <inputport name="mapName">&quot;dynamic_amenazas&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceCoefficients">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v15" />
+        <inputport name="finalLandscape" peerid="v13" />
+        <inputport name="ranges" peerid="v27" />
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.yes</inputport>
+        <outputport name="weights" id="v28" />
+        <outputport name="report" id="v29" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v14" />
+            <inputport name="mapName">&quot;static_amenazas&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v16" />
+            <inputport name="mapName">&quot;dynamic_amenazas&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="DetermineWeightsOfEvidenceCoefficients">
+        <property key="dff.container.collapsed" value="yes" />
+        <inputport name="initialLandscape" peerid="v7" />
+        <inputport name="finalLandscape" peerid="v5" />
+        <inputport name="ranges" peerid="v17" />
+        <inputport name="fixAbnormalWeights">.no</inputport>
+        <inputport name="potentialTransitionCriteria">.yes</inputport>
+        <outputport name="weights" id="v30" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v2" />
+            <inputport name="mapName">&quot;static_biofisico&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v4" />
+            <inputport name="mapName">&quot;dynamic_biofisico&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v6" />
+            <inputport name="mapName">&quot;static_Infraestructura&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v8" />
+            <inputport name="mapName">&quot;dynamic_Infraestructura&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v14" />
+            <inputport name="mapName">&quot;static_amenazas&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v16" />
+            <inputport name="mapName">&quot;dynamic_amenazas&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v10" />
+            <inputport name="mapName">&quot;static_conflictos&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v12" />
+            <inputport name="mapName">&quot;dynamic_conflictos&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="Workdir">
+        <property key="dff.container.collapsed" value="no" />
+        <inputport name="folder">&quot;../03_ Resultados_Final&quot;</inputport>
+        <internaloutputport name="workdir" id="v31" />
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v19" />
+            <inputport name="filename">&quot;03_Weights_model_biofisico.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveTable">
+            <inputport name="table" peerid="v20" />
+            <inputport name="filename">&quot;03_Weights_biofisico.csv&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v22" />
+            <inputport name="filename">&quot;03_Weights_model_infraestructura.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveTable">
+            <inputport name="table" peerid="v23" />
+            <inputport name="filename">&quot;03_Weights_infraestructura.csv&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v25" />
+            <inputport name="filename">&quot;03_Weights_model_conflictos.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveTable">
+            <inputport name="table" peerid="v26" />
+            <inputport name="filename">&quot;03_Weights_conflictos.csv&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v28" />
+            <inputport name="filename">&quot;03_Weights_model_amenazas.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveTable">
+            <inputport name="table" peerid="v29" />
+            <inputport name="filename">&quot;/03_Weights_amenazas.csv&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v27" />
+            <inputport name="filename">&quot;02_ranges_skeleton_amenazas.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v21" />
+            <inputport name="filename">&quot;02_ranges_skeleton_infraestructura.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveTable">
+            <inputport name="table" peerid="v30" />
+            <inputport name="filename">&quot;/03_Weights_Cubes.csv&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v30" />
+            <inputport name="filename">&quot;03_Weights_model_cubes.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v24" />
+            <inputport name="filename">&quot;03_ranges_skeleton_conflictos.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+        <functor name="SaveWeights">
+            <inputport name="weights" peerid="v18" />
+            <inputport name="filename">&quot;3_ranges_skeleton_biofisico.dcf&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v31" />
+        </functor>
+    </containerfunctor>
+</script>

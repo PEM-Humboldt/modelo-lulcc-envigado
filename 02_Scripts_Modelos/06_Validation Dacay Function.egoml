@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<script>
+    <property key="dff.charset" value="UTF-8" />
+    <property key="dff.date" value="2025-Nov-24 12:41:45" />
+    <property key="dff.version" value="8.8.0.20250930" />
+    <property key="submodel.import" value='CalcMultiWindowSimilarityOfDifferences { { &quot;initialMap&quot; : CategoricalMap, &quot;observedMap&quot; : CategoricalMap, &quot;simulatedMap&quot; : CategoricalMap, &quot;maximumWindowSize&quot; : NonNegativeIntegerValue } { &quot;printSimilarities&quot; : BooleanValue } { &quot;similarities&quot; : Table } }' />
+    <functor name="CalcMultiWindowSimilarityOfDifferences">
+        <inputport name="initialMap" peerid="v2" />
+        <inputport name="observedMap" peerid="v3" />
+        <inputport name="simulatedMap" peerid="v4" />
+        <inputport name="maximumWindowSize">11</inputport>
+        <inputport name="printSimilarities">.yes</inputport>
+        <outputport name="similarities" id="v1" />
+    </functor>
+    <functor name="SaveTable">
+        <inputport name="table" peerid="v1" />
+        <inputport name="filename">&quot;../03_ Results_Final/06_Similarities_06-20.csv&quot;</inputport>
+        <inputport name="suffixDigits">2</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="initial Landscape" />
+        <inputport name="filename">&quot;../01_Raster/Final/nrFNF_2006.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v2" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="Final Landscape" />
+        <inputport name="filename">&quot;../01_Raster/Final/nrFNF_2020.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v3" />
+    </functor>
+    <functor name="LoadCategoricalMap">
+        <property key="dff.functor.alias" value="Simulated Final Landscape" />
+        <inputport name="filename">&quot;../03_ Results_Final/Probabilities and Landscapes/Landscape_2020.tif&quot;</inputport>
+        <inputport name="nullValue">.none</inputport>
+        <inputport name="storageMode">.default</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="firstWindowCoordinateX">.none</inputport>
+        <inputport name="firstWindowCoordinateY">.none</inputport>
+        <inputport name="secondWindowCoordinateX">.none</inputport>
+        <inputport name="secondWindowCoordinateY">.none</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="map" id="v4" />
+    </functor>
+</script>

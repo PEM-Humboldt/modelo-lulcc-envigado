@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<script>
+    <property key="dff.charset" value="UTF-8" />
+    <property key="dff.date" value="2025-Dec-12 13:13:28" />
+    <property key="dff.version" value="8.8.0.20250930" />
+    <functor name="SaveTable">
+        <inputport name="table" peerid="v1" />
+        <inputport name="filename">&quot;../04_Tablas/04_Correlations_Cubes_report.csv&quot;</inputport>
+        <inputport name="suffixDigits">2</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+    </functor>
+    <containerfunctor name="DetermineWeightsOfEvidenceCorrelation">
+        <property key="dff.container.collapsed" value="no" />
+        <inputport name="ranges" peerid="v11" />
+        <inputport name="transition">[ 1-&gt;2 ]</inputport>
+        <outputport name="report" id="v1" />
+        <functor name="NameMap">
+            <inputport name="map" peerid="v3" />
+            <inputport name="mapName">&quot;static_biofisico&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v4" />
+            <inputport name="mapName">&quot;dynamic_biofisico&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v5" />
+            <inputport name="mapName">&quot;static_Infraestructura&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v6" />
+            <inputport name="mapName">&quot;dynamic_Infraestructura&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v9" />
+            <inputport name="mapName">&quot;static_amenazas&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v10" />
+            <inputport name="mapName">&quot;dynamic_amenazas&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v7" />
+            <inputport name="mapName">&quot;static_conflictos&quot;</inputport>
+        </functor>
+        <functor name="NameMap">
+            <inputport name="map" peerid="v8" />
+            <inputport name="mapName">&quot;dynamic_conflictos&quot;</inputport>
+        </functor>
+    </containerfunctor>
+    <containerfunctor name="Workdir">
+        <inputport name="folder">&quot;../01_CuboRaster&quot;</inputport>
+        <internaloutputport name="workdir" id="v2" />
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Biofisico0.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v3" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Biofisico1.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v4" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Infraestructura0.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v5" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Infraestructura1.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v6" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Conflictos0.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v7" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Conflictos1.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v8" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Amenazas0.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v9" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;Dataset_Amenazas1.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir" peerid="v2" />
+            <outputport name="map" id="v10" />
+        </functor>
+    </containerfunctor>
+    <functor name="LoadWeights">
+        <inputport name="filename">&quot;../04_Tablas/03_Weights_model_cubes.dcf&quot;</inputport>
+        <inputport name="suffixDigits">0</inputport>
+        <inputport name="step">.none</inputport>
+        <inputport name="workdir">.none</inputport>
+        <outputport name="weights" id="v11" />
+    </functor>
+</script>

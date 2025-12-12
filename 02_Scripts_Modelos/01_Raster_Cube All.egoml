@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<script>
+    <property key="dff.charset" value="UTF-8" />
+    <property key="dff.date" value="2025-Dec-12 00:47:22" />
+    <property key="dff.version" value="8.8.0.20250930" />
+    <property key="metadata.showproperties" value="no" />
+    <containerfunctor name="Group">
+        <property key="dff.container.collapsed" value="no" />
+        <property key="dff.functor.alias" value="Estaticas" />
+        <inputport name="sequenceInput">.none</inputport>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_CLASIFICACION_SUELOS.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v1" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_PARQUES_RESERVAS_RURALES.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v2" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_AREA_PROTEGIDA_METROPOLITANA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v3" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_ECOSISTEMAS_POMCA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v4" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RESERVA_NARE.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v5" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RETIRO_CORRIENTES.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v6" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RETIRO_HUMEDALES.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v7" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RETIRO_NACIMIENTOS.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v8" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_SILAPE.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v9" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_CLASIFICACION_SUELOS.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v10" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_RED_AGUA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v11" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_LINEA_ALTA_TENSION.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v12" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_PROYECTOSURBAN.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v13" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_CAPTACIONES.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v14" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_VIA_RURAL.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v15" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_VIA_REGIONAL.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v16" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_CONSTRUCCION_URBANA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v17" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_CONSTRUCCION_RURAL.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v18" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_CONSOLIDADO_HISTORICO_FELINOS.tif&quot;</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v19" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_INTERACCION_NEGATIVA_FELINOS.tif&quot;</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v20" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_ATROPELLAMIENTO_ENVIGADO.tif&quot;</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v21" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_EEP.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v22" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_PLANTACIONES.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v23" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_AMENAZA_INUNDACION.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v24" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_PENDIENTE_MAY_45G.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v25" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_AMENAZA_INC_FORESTALES.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v26" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_TITULOS_MINEROS.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v27" />
+        </functor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.uint8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v28" />
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v5" />
+                <inputport name="mapName">&quot;bin_rnare&quot;</inputport>
+                <inputport name="mapNumber">6</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v2" />
+                <inputport name="mapName">&quot;Bin_parquesreservas&quot;</inputport>
+                <inputport name="mapNumber">5</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v4" />
+                <inputport name="mapName">&quot;Bin_POMCA&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v1" />
+                <inputport name="mapName">&quot;Bin_clasedesuelos&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v3" />
+                <inputport name="mapName">&quot;Bin_ametropolitana&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v6" />
+                <inputport name="mapName">&quot;Bin_rios&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v7" />
+                <inputport name="mapName">&quot;Bin_humendales&quot;</inputport>
+                <inputport name="mapNumber">7</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v8" />
+                <inputport name="mapName">&quot;Bin_nacimientos&quot;</inputport>
+                <inputport name="mapNumber">8</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Area Nucleo: #2&#x0A;Corredor: #1" />
+                <inputport name="map" peerid="v9" />
+                <inputport name="mapName">&quot;Bin_silape&quot;</inputport>
+                <inputport name="mapNumber">9</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.uint16</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v29" />
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v14" />
+                <inputport name="mapName">&quot;bin_captaciones&quot;</inputport>
+                <inputport name="mapNumber">6</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v11" />
+                <inputport name="mapName">&quot;Bin_redaguas&quot;</inputport>
+                <inputport name="mapNumber">5</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v13" />
+                <inputport name="mapName">&quot;Bin_NuevosProyectos&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Urbano&#x0A;Rural&#x0A;Expansion" />
+                <inputport name="map" peerid="v10" />
+                <inputport name="mapName">&quot;Bin_clasedesuelos&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v12" />
+                <inputport name="mapName">&quot;Bin_linea_altatens&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v15" />
+                <inputport name="mapName">&quot;Bin_vias_rurales&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v16" />
+                <inputport name="mapName">&quot;Bin_vias_region&quot;</inputport>
+                <inputport name="mapNumber">7</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v17" />
+                <inputport name="mapName">&quot;Bin_constru_urbana&quot;</inputport>
+                <inputport name="mapNumber">8</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Residencial: 1&#x0A;Institucional Comercial: 2-3" />
+                <inputport name="map" peerid="v18" />
+                <inputport name="mapName">&quot;Bin_constru_rural&quot;</inputport>
+                <inputport name="mapNumber">9</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.uint16</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v30" />
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v21" />
+                <inputport name="mapName">&quot;Bin_atropellamiento_gen&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v19" />
+                <inputport name="mapName">&quot;Bin_presenciaausencia_fel&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v20" />
+                <inputport name="mapName">&quot;Bin_ataques_fel&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v22" />
+                <inputport name="mapName">&quot;Bin_estructuraecologicappal&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.uint8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v31" />
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="1" />
+                <inputport name="map" peerid="v25" />
+                <inputport name="mapName">&quot;Bin_Deslizamientos&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Alta:3&#x0A;Media:2&#x0A;Baja: 1" />
+                <inputport name="map" peerid="v24" />
+                <inputport name="mapName">&quot;Bin_Inundaciones&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Alta:3&#x0A;Media:2&#x0A;Baja: 1" />
+                <inputport name="map" peerid="v26" />
+                <inputport name="mapName">&quot;Bin_incendios_forestales&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="1" />
+                <inputport name="map" peerid="v27" />
+                <inputport name="mapName">&quot;Bin_Mineria&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v23" />
+                <inputport name="mapName">&quot;Bin_Plantaciones&quot;</inputport>
+                <inputport name="mapNumber">5</inputport>
+            </functor>
+        </containerfunctor>
+    </containerfunctor>
+    <containerfunctor name="Group">
+        <property key="dff.container.collapsed" value="no" />
+        <property key="dff.functor.alias" value="Dinamicas" />
+        <inputport name="sequenceInput">.none</inputport>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_PARQUES_RESERVAS_RURALES.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v32" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_ECOSISTEMAS_POMCA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v33" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RESERVA_NARE.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v34" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RETIRO_CORRIENTES.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v35" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_RETIRO_NACIMIENTOS.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v36" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_SILAPE.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v37" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Biofisico_CLASIFICACION_SUELOS.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v38" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_RED_AGUA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v39" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_LINEA_ALTA_TENSION.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v40" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_PROYECTOSURBAN.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v41" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_CAPTACIONES.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v42" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_VIA_RURAL.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v43" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_VIA_REGIONAL.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v44" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_CONSTRUCCION_URBANA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v45" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/INFRAESTRUCTURA/Infraestructura_CONSTRUCCION_RURAL.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v46" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_CONSOLIDADO_HISTORICO_FELINOS.tif&quot;</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v47" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_INTERACCION_NEGATIVA_FELINOS.tif&quot;</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v48" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_ATROPELLAMIENTO_ENVIGADO.tif&quot;</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v49" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/GESTION_CONSERVACION/Conflictos_EEP.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v50" />
+        </functor>
+        <functor name="LoadMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_PLANTACIONES.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v51" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_AMENAZA_INUNDACION.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v52" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_PENDIENTE_MAY_45G.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v53" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_AMENAZA_INC_FORESTALES.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v54" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/AMENAZAS/Amenazas_TITULOS_MINEROS.tif&quot;</inputport>
+            <inputport name="nullValue">0</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v55" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v88" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v56" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/MASCARA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v57" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v90" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v58" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v92" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v59" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v94" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v60" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v96" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v61" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v98" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v62" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v100" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v63" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v102" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v64" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v104" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v65" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v106" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v66" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v108" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v67" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v110" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v68" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v112" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v69" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v114" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v70" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v116" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v71" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v118" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v72" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v120" />
+            <inputport name="categories">[ 1 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v73" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v122" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v74" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v124" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v75" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v126" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v76" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v128" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v77" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v130" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v78" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v132" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v79" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v134" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v80" />
+        </functor>
+        <functor name="LoadCategoricalMap">
+            <inputport name="filename">&quot;../Cubo_raster/MASCARA.tif&quot;</inputport>
+            <inputport name="nullValue">.none</inputport>
+            <inputport name="storageMode">.default</inputport>
+            <inputport name="suffixDigits">0</inputport>
+            <inputport name="firstWindowCoordinateX">.none</inputport>
+            <inputport name="firstWindowCoordinateY">.none</inputport>
+            <inputport name="secondWindowCoordinateX">.none</inputport>
+            <inputport name="secondWindowCoordinateY">.none</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="workdir">.none</inputport>
+            <outputport name="map" id="v81" />
+        </functor>
+        <functor name="CalcDistanceMap">
+            <property key="viewer.distance" value="yes" />
+            <inputport name="categoricalMap" peerid="v136" />
+            <inputport name="categories">[ 2 ]</inputport>
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="truncateDistance">.no</inputport>
+            <outputport name="distance" id="v82" />
+        </functor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.int32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v83" />
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v75" />
+                <inputport name="mapName">&quot;bin_rnare&quot;</inputport>
+                <inputport name="mapNumber">6</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v74" />
+                <inputport name="mapName">&quot;Dist_parquesreservas&quot;</inputport>
+                <inputport name="mapNumber">5</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v73" />
+                <inputport name="mapName">&quot;Dist_EcoPOMCA&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v72" />
+                <inputport name="mapName">&quot;Dista_riosquebradas&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v71" />
+                <inputport name="mapName">&quot;Dist_nacimientos&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Area Nucleo: #2&#x0A;Corredor: #1" />
+                <inputport name="map" peerid="v76" />
+                <inputport name="mapName">&quot;Dist_NucleosSILAPE&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Area Nucleo: #2&#x0A;Corredor: #1" />
+                <inputport name="map" peerid="v82" />
+                <inputport name="mapName">&quot;Dist_CorredoresSILAPE&quot;</inputport>
+                <inputport name="mapNumber">7</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v84" />
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v65" />
+                <inputport name="mapName">&quot;Dist_potable&quot;</inputport>
+                <inputport name="mapNumber">6</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v64" />
+                <inputport name="mapName">&quot;Dist_redEPM&quot;</inputport>
+                <inputport name="mapNumber">5</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v63" />
+                <inputport name="mapName">&quot;Dist_NuevosUrbanis&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Urbano" />
+                <inputport name="map" peerid="v62" />
+                <inputport name="mapName">&quot;Dist_claseurbana&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v61" />
+                <inputport name="mapName">&quot;Dist_linea_altatension&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v60" />
+                <inputport name="mapName">&quot;Dist_vias_rurales&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v59" />
+                <inputport name="mapName">&quot;Dist_vias_region&quot;</inputport>
+                <inputport name="mapNumber">7</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v58" />
+                <inputport name="mapName">&quot;Dist_constru_urbana&quot;</inputport>
+                <inputport name="mapNumber">8</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Residencial: 1&#x0A;Institucional Comercial: 2-3" />
+                <inputport name="map" peerid="v56" />
+                <inputport name="mapName">&quot;Dist_constru_rural&quot;</inputport>
+                <inputport name="mapNumber">9</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.float32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v85" />
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v79" />
+                <inputport name="mapName">&quot;Dist_atropellamiento_felinos&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v78" />
+                <inputport name="mapName">&quot;Dist_presencia_felinos&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v77" />
+                <inputport name="mapName">&quot;Dist_ataques_felinos&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v80" />
+                <inputport name="mapName">&quot;Dist_ConflictosEEP&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CreateCubeMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="cellType">.uint32</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <outputport name="map" id="v86" />
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="1" />
+                <inputport name="map" peerid="v67" />
+                <inputport name="mapName">&quot;Dist_Deslizamiento&quot;</inputport>
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Alta:3&#x0A;Media:2&#x0A;Baja: 1" />
+                <inputport name="map" peerid="v68" />
+                <inputport name="mapName">&quot;Dist_Inundaciones&quot;</inputport>
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="Alta:3&#x0A;Media:2&#x0A;Baja: 1" />
+                <inputport name="map" peerid="v69" />
+                <inputport name="mapName">&quot;Dist_Altaincendios&quot;</inputport>
+                <inputport name="mapNumber">3</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <property key="dff.functor.comment" value="1" />
+                <inputport name="map" peerid="v70" />
+                <inputport name="mapName">&quot;Dist_Mineria&quot;</inputport>
+                <inputport name="mapNumber">4</inputport>
+            </functor>
+            <functor name="NumberAndNameMap">
+                <inputport name="map" peerid="v66" />
+                <inputport name="mapName">&quot;Dist_PlantacionesHisto&quot;</inputport>
+                <inputport name="mapNumber">5</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v87" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v46" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v88" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v87" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v89" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v45" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v90" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v89" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v91" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v44" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v92" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v91" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v93" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v43" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v94" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v93" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v95" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v40" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v96" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v95" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v97" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v38" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v98" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v97" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v99" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v41" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v100" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v99" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v101" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v39" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v102" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v101" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v103" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v42" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v104" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v103" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v105" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v51" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v106" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v105" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v107" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v53" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v108" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v107" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v109" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v52" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v110" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v109" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v111" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v54" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v112" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v111" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v113" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v55" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v114" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v113" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v115" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v36" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v116" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v115" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v117" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v35" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v118" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v117" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 &gt; 1 then&#x0A;        1&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v119" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v33" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v120" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v119" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v121" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v32" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v122" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v121" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v123" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v34" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v124" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v123" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v125" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v37" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v126" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v125" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v127" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v48" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v128" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v127" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v81" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v129" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v47" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v130" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v129" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v81" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 4 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v131" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v49" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v132" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v131" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v81" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 1 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v133" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v50" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v134" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v133" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v81" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if i1 = 2 then&#x0A;        2&#x0A;    else &#x0A;        null&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v135" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v37" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+        </containerfunctor>
+        <containerfunctor name="CalculateCategoricalMap">
+            <property key="dff.container.collapsed" value="yes" />
+            <property key="viewer.result" value="yes" />
+            <inputport name="expression">[&#x0A;    if isNull(i1) and not isNull(i2) then&#x0A;        0&#x0A;    else if isNull(i2) then&#x0A;        null&#x0A;    else &#x0A;        i1&#x0A;]</inputport>
+            <inputport name="cellType">.int8</inputport>
+            <inputport name="nullValue">.default</inputport>
+            <inputport name="resultIsSparse">.no</inputport>
+            <inputport name="resultFormat">.none</inputport>
+            <outputport name="result" id="v136" />
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v135" />
+                <inputport name="mapNumber">1</inputport>
+            </functor>
+            <functor name="NumberMap">
+                <inputport name="map" peerid="v57" />
+                <inputport name="mapNumber">2</inputport>
+            </functor>
+        </containerfunctor>
+    </containerfunctor>
+    <containerfunctor name="Workdir">
+        <property key="dff.container.collapsed" value="no" />
+        <inputport name="folder">&quot;../01_CuboRaster&quot;</inputport>
+        <internaloutputport name="workdir" id="v137" />
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v85" />
+            <inputport name="filename">&quot;Dataset_Conflictos1.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v84" />
+            <inputport name="filename">&quot;/Dataset_Infraestructura1.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v29" />
+            <inputport name="filename">&quot;/Dataset_Infraestructura0.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v31" />
+            <inputport name="filename">&quot;/Dataset_Amenazas0.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v30" />
+            <inputport name="filename">&quot;/Dataset_Conflictos0.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v83" />
+            <inputport name="filename">&quot;/Dataset_Biofisico1.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v28" />
+            <inputport name="filename">&quot;/Dataset_Biofisico0.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+        <functor name="SaveMap">
+            <inputport name="map" peerid="v86" />
+            <inputport name="filename">&quot;/Dataset_Amenazas1.tif&quot;</inputport>
+            <inputport name="suffixDigits">2</inputport>
+            <inputport name="step">.none</inputport>
+            <inputport name="useCompression">.yes</inputport>
+            <inputport name="workdir" peerid="v137" />
+            <inputport name="ignoreCostlySparseCategories">.yes</inputport>
+        </functor>
+    </containerfunctor>
+</script>
