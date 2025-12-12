@@ -56,6 +56,21 @@ cd modelo-lulcc-envigado
 
 ## 📊 Datos de Entrada
 
+## 📁 Estructura del Repositorio
+```
+Modelo_silape-envigado-lulcc/
+├── 📁 01_CuboRaster/           # Datos de entrada raster para el modelo
+│   └── MAPBIOMAS/              
+├── 📁 02_Scripts_Modelos/      # Scripts y modelos Dinamica EGO
+├── 📁 03_Resultados_Final/
+│   ├── Probabilities and Landscapes SIN/   # Resultados escenario sin SILAPE
+│   └── Probabilities and Landscapes CON/   # Resultados escenario con SILAPE
+├── 📁 04_Tablas/               # Tablas y matrices resultados del proceso de modelado
+├── 📁 05_Maps/                 # Mapas generados
+│   └── Logos                    # Logos institucionales
+└── README.md
+```
+
 ### Descargar dataset de GeoNetworkversión I2D del Instituto Humboldt
 
 [Portal I2D](https://geonetwork.humboldt.org.co/geonetwork/srv/spa/catalog.search#/home) es una plataforma en la que puedes acceder al catálogo público del Instituto, GeoNetwork es un API con capacidades para gestionar registros, búsquedas por catálogo (CSW), y manipular servicios, usuarios y metadatos.
