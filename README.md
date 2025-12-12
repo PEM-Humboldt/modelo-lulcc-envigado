@@ -49,6 +49,7 @@ cd modelo-lulcc-envigado
 | **Functor Action Bar** | Permite interactuar con el functor seleccionado: comentarios, conexiones, edición |
 | **Model Issues** | Lista de problemas críticos (Errors) y no críticos (Warnings) |
 
+
 ![Dinamica Presentation](/docs/DinamicaPresentation.png)
 
 ---
@@ -94,7 +95,7 @@ Las matrices de transición se calcularon para dos períodos históricos:
 
 > Los valores historicos para el periodo analizado evidencian una ligera disminución en la tasa de cambio, sugiriendo una estabilización de las dinámicas de transformación bajo la influencia del SILAPE.
 
-![Historico](/docs/Hisorico.png)
+![Historico](/docs/Historico.png)
 
 ---
 ### Resultado: Escenario 1: Tendencial (SIN SILAPE)
@@ -106,7 +107,7 @@ Las matrices de transición se calcularon para dos períodos históricos:
 - El modelo *premia* píxeles cercanos a vías y centros urbanos
 
 <p align="center">
-  <img src="./docs/SINSLandscape_Simulation_2014_2050.gif" width="45%" alt="Simulación Sin SILAPE"/>
+  <img src="./docs/SINSLandscape_Evolution_2014_2050.gif" width="45%" alt="Simulación Sin SILAPE"/>
   <img src="./docs/SINSProbabilities_Classified.gif" width="45%" alt="Probabilidades Sin SILAPE"/>
 </p>
 
