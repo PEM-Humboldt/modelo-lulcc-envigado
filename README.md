@@ -162,6 +162,7 @@ Las matrices de transición se calcularon para dos períodos históricos:
 - MapBiomas. Proyecto de mapeo anual de cobertura y uso del suelo. https://mapbiomas.org/
 
 ---
+
 ## 👥 Autores
 
 | Rol | Nombre | Institución |
@@ -170,6 +171,9 @@ Las matrices de transición se calcularon para dos períodos históricos:
 | **Autor** | Adolfo Andrés Hincapié García | Contratista |
 | **Supervisora del Convenio** | Adriana Restrepo Isaza | Instituto Humboldt |
 
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 📧 Contacto
 
